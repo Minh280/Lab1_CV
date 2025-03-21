@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f4f4f4">
+
+    <!-- Profile Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Profile Image"/>
+
+        <TextView
+            android:id="@+id/textProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile\nI'm a student"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#009688"/>
+    </LinearLayout>
+
+    <!-- About Me Section -->
+    <TextView
+        android:id="@+id/textAboutMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About me\nI am a lovely cat. I have a passion in IT and I want to become a data analyst."
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="8dp"/>
+
+    <!-- Details Section -->
+    <TextView
+        android:id="@+id/textDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: Mai Đăng Minh\nAge: 5 years\nLocation: UIT, VNU-HCM"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="8dp"/>
+
+    <!-- Education Section -->
+    <TextView
+        android:id="@+id/textEducation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Education\nUIT, VNU-HCM\nApr 2019 - June 2024\nInformation System\nThe education was mainly system design-based courses, with specialization in web development."
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="8dp"/>
+
+    <!-- Work Experience Section -->
+    <TextView
+        android:id="@+id/textWorkExperience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Working Experience\nFacebook | Fresher Engineer | Sept 2021 - Current\nPart-time Web Developer | Worked as a Fresher Developer on a dating function on Facebook page."
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="8dp"/>
+
+</LinearLayout>
